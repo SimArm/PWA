@@ -1,0 +1,25 @@
+.weekday {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .weekday {
+        justify-content: space-between;
+        flex-flow: row nowrap;
+    }
+}
+
+@media (min-width: 992px) {
+    .weekday {
+        justify-content: space-between;
+        flex-flow: row nowrap;
+    }
+}
